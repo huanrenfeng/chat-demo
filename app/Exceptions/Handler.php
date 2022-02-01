@@ -37,7 +37,7 @@ class Handler extends ExceptionHandler
     //    parent::report($exception);
     //}
 
-     public function report($request,Throwable $e)
+     public function report(Throwable $e)
     {
         parent::report($e);
     }
@@ -48,8 +48,8 @@ class Handler extends ExceptionHandler
      * @param  \Exception  $exception
      * @return \Illuminate\Http\Response
      */
-    public function render($request, Exception $exception)
+    public function render($request, Throwable $e)
     {
-        return parent::render($request, $exception);
+        return parent::render($request, $e);
     }
 }
