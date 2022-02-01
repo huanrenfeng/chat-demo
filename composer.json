@@ -10,7 +10,7 @@
   "require": {
     "php": ">=7.3",
     "fideloper/proxy": "^4.0",
-    "laravel/framework": "^6.0|^7.0|^8.0",
+    "laravel/framework": "^7.29|^8.0",
     "laravel/tinker": "^1.0",
     "musonza/chat": ">=4.5.0",
     "pusher/pusher-php-server": "~4.0",
